@@ -3,6 +3,7 @@
     font-family: 'Indie Flower', cursive;
     font-style: italic;
     font-weight: bolder;
+    
 }
 .p1{
     background-size: cover;
@@ -42,7 +43,7 @@
  
   
 }
-input{
+.p2{
     background-color: rgba(128,208,199,1) ;
     text-align: center;
     align-items: center;
@@ -57,4 +58,21 @@ input{
     box-shadow: none;
     border: 5px solid rgba(0,147,233,1);
     cursor: pointer;
+}
+.p3{
+    background-color: rgba(128,208,199,1) ;
+    text-align: center;
+    align-items: center;
+    color: black;
+    position: fixed;
+    width: 75px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 5px solid rgba(0,147,233,1);
+    cursor: pointer;
+    margin-left: 439px;
+    margin-top: 353px;
+
 }
