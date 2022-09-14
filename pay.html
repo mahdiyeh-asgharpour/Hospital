@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pay</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="pay.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Explora&family=Indie+Flower&display=swap" rel="stylesheet"> 
+
+    </head>
+    <body>
+        <div class="div">
+            <h1>Pay</h1>
+            <a>Patient:</a>&nbsp;<input type="text" placeholder="For example:Sara Alavi">
+            <br><br>
+            <div class="money">
+            <label for="Money">Money:</label>
+                  <select id="Money:" name="Money:">
+                    <option value="5,000,000">5,000,000</option>
+                    <option value="10,000,000">10,000,000</option>
+                    <option value="Another" onclick="alert('This is not happened.')">Another</option>
+                    <input class="input" type="button" value="Pay" onclick="alert('Done')">
+                </div>
+                <br><br>
+                <input  class="back" type="button" value="Back" onclick="window.location.href='index.html'">
+                
+        </div>
+
+    </body>
+</html>
