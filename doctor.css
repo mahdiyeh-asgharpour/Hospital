@@ -3,8 +3,6 @@
     font-family: 'Indie Flower', cursive;
     font-style: italic;
     font-weight: bolder;
-  
-   
 }
 body{
     background: linear-gradient(150deg, rgba(255,255,255,1) 0%, rgba(128,208,199,1) 53%, rgba(0,147,233,1) 100%);   
@@ -22,12 +20,12 @@ body{
     background: inherit;
     backdrop-filter: blur(50px);
     margin-left: 24%;
-    
+    position: absolute;
     height:50%;
     width: 50%;
     border-radius: 15px;
     border: 1px solid rgba(12, 12, 12, 0.126);
-    position:absolute;
+   
     content: '';
     box-shadow: inset 0 0 0 3000px rgba(255, 250, 250, 0.319);   
 
@@ -76,9 +74,9 @@ h1{
     border: 1px solid rgba(12, 12, 12, 0.126);
     content: '';
     box-shadow: inset 0 0 0 3000px rgba(255, 250, 250, 0.319);   
-    position: absolute;
     padding-right: 2px;
     padding-left: 2px;
+    position: absolute;
    
 
 }
@@ -97,9 +95,9 @@ h1{
     border: 1px solid rgba(12, 12, 12, 0.126);
     content: '';
     box-shadow: inset 0 0 0 3000px rgba(255, 250, 250, 0.319);   
-    position: absolute;
     padding-right: 2px;
     padding-left: 2px;
+    position: absolute;
    
 
 }
@@ -110,8 +108,7 @@ h1{
     cursor: pointer;
     width: 52px; 
     height: 29px; 
-    margin-left: 48%;
-    position: absolute;
-    margin-top: 110%;
-    margin-bottom: 10px;
+    margin-left: 730px;;
+    margin-top: 1750px;;
+    margin-bottom:68px; 
 }
