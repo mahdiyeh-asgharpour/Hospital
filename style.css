@@ -1,0 +1,117 @@
+*{
+    font-family: 'Explora', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+.p1{
+    background-size: cover;
+    background-position: inherit;
+    
+  
+}
+.img{
+    width: 110%;
+    height: 120%;
+    margin: -20px;
+    padding: -13px;
+    position: fixed;
+   
+}
+@keyframes p1h1 {
+    30%{
+        color: rgb(0, 208, 184);
+    }
+    50%{
+        color: black;
+    }
+    
+}
+.p1 h1{
+    text-align: center;
+    color: rgba(0,147,233,1) ;
+    background:none;
+    position: fixed;
+    padding-top: 20%;
+    padding-left: 40%;
+   font-size: 50px;
+   text-shadow: 10px 0 3px rgba(128,208,199,1);
+   animation-name: p1h1;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+ 
+  
+}
+@keyframes p{
+    from{
+        opacity: 0%;
+
+    }
+    to{
+        opacity: 100%;
+
+    }
+    
+
+}
+.p2{
+    background-color: rgba(128,208,199,1) ;
+    text-align: center;
+    align-items: center;
+    color: black;
+    position: fixed;
+    margin-left: 48%;
+    margin-top: 30%;
+    width: 75px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 5px solid rgba(0,147,233,1);
+    cursor: pointer;
+    animation-name: p;
+   animation-duration: 5s;
+   animation-iteration-count: 1;
+
+}
+.p3{
+    background-color: rgba(128,208,199,1) ;
+    text-align: center;
+    align-items: center;
+    color: black;
+    position: fixed;
+    width: 75px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 5px solid rgba(0,147,233,1);
+    cursor: pointer;
+    margin-left: 439px;
+    margin-top: 353px;
+    animation-name: p;
+   animation-duration: 5s;
+   animation-iteration-count: 1;
+
+}
+.p4{
+    background-color: rgba(128,208,199,1) ;
+    text-align: center;
+    align-items: center;
+    color: black;
+    position: fixed;
+    width: 81px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 5px solid rgba(0,147,233,1);
+    cursor: pointer;
+    margin-left: 998px;
+    margin-top: 353px;
+    animation-name: p;
+   animation-duration: 5s;
+   animation-iteration-count: 1;
+
+}
